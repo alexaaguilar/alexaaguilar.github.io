@@ -1,0 +1,142 @@
+body {
+  font-family: Work Sans;
+  font-size: 14px;
+  color: rgb(41, 51, 53);
+}
+
+.grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px 400px 170px 300px;
+        /*grid-template-rows: auto;*/
+        grid-auto-rows: 300px;
+        grid-gap: 20px;
+}
+
+.grid div {
+            border-top: 5px solid rgb(55, 32, 49);
+            padding: 5px;
+            color: rgb(41, 51, 53);
+}
+
+h1 {
+  font-family: Lato;
+  font-size: 60px;
+  color: rgba(244, 159, 38, 0.9);
+
+}
+h2 {
+  margin-top: 5px;
+  font-family: Lato;
+  font-size: 40px;
+    color: rgba(232, 159, 38, 0.9);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(248, 198, 45, 0.8);
+}
+
+a:hover {
+  color: rgba(232, 159, 38, 0.9);
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: rgba(55, 32, 49, 0.9);
+}
+
+#header {
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  border: none;
+}
+
+#subhead {
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  border: none;
+}
+
+#subhead p {
+  margin-top: 85px;
+}
+
+#contact {
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  border: none;
+}
+
+#contact address ul{
+  list-style: none;
+  text-align: right;
+  margin-top: 50px;
+  padding-right: 10px;
+}
+
+#image {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 2;
+
+  overflow: hidden;
+}
+
+#image img {
+  height: 400px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+#objective {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 3;
+}
+
+#experience {
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#experience p {
+  font-size: 20px;
+}
+
+#experience a {
+  font-size: 25px;
+}
+
+  #orange-umbrella,
+  #distraction {
+    margin-bottom: 60px;
+  }
+
+#education {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 4;
+}
+
+#skills {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 4;
+}
+#assets {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row: 4;
+}
+
+#container {
+  border-bottom: 5px solid rgb(55, 32, 49);
+}
