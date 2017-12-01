@@ -86,13 +86,14 @@ a:visited {
   grid-column-end: 2;
   grid-row: 2;
 
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 #image img {
-  height: 400px;
+  height: 375px;
   margin-top: 10px;
   overflow: hidden;
+  border: 3px solid rgb(55, 32, 49);
 }
 
 #objective {
@@ -115,6 +116,9 @@ a:visited {
   font-size: 25px;
 }
 
+#experience h2 {
+  margin-bottom: 60px;
+}
   #orange-umbrella,
   #distraction {
     margin-bottom: 60px;
