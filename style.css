@@ -1,0 +1,182 @@
+body {
+  font-family: "filson-pro", sans-serif;
+  font-weight: 100;
+  background-color: rgba(228, 238, 216, 0.8);
+  color: #231E1D;
+}
+
+.grid {
+        display: grid;
+        grid-template-columns: 20% 1fr 1fr;
+        grid-template-rows: 250px 500px 100px 50px;
+        /*grid-template-rows: auto;*/
+        grid-auto-rows: 300px;
+        grid-gap: 20px;
+}
+
+.grid div {
+        /* border: 1px solid blue;
+        padding: 2px; */
+}
+
+a {
+  color: #8C7876;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A89C99;
+}
+
+.title {
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row: 1;
+
+  text-align: center;
+  margin-top: 120px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.sidebar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: -1;
+
+  background-color: #fff;
+}
+
+.logo {
+  height: 240px;
+  margin-top: 10px;
+  margin-left: 27px;
+  border: none;
+}
+
+#bio-image {
+  width: 960px;
+  margin-left: 20px;
+}
+
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 1;
+
+  background-color: #fff;
+}
+
+
+.nav {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: -1;
+
+  background-color: #fff;
+}
+
+
+#bio {
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: -1;
+}
+
+#bio p {
+  margin-left: 10px;
+}
+
+.nav ul li {
+  margin-top: 40px;
+  margin-left: -20px;
+  font-weight: 300;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.description {
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row: 3;
+}
+
+/* .description p {
+  margin-left: 250px;
+}
+
+#awsfl-description {
+  margin-left: 190px;
+} */
+
+.description p {
+  text-align: center;
+}
+
+.download-link {
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row: 4;
+}
+
+.download-link a {
+  margin-left: 400px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.sampleimage1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 2;
+
+  overflow: show;
+}
+
+.sampleimage2 {
+  grid-column-start: 3;
+  grid-column-end: -1;
+  grid-row: 2;
+
+  overflow: show;
+}
+
+.drums-image {
+  height: 500px;
+  margin: auto
+}
+
+.marshall-image {
+  height: 500px;
+  margin-auto;
+}
+
+#mouthsample {
+  margin-left: 100px;
+}
+
+.awsfl-image {
+  height: 450px;
+  margin: auto;
+}
+
+.meyers-image {
+  height: 500px;
+  margin: auto;
+}
+
+#meyersposter1 {
+  margin-left: 103px;
+}
+
+img {
+  border: 5px solid white;
+}
