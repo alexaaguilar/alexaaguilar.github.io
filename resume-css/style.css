@@ -1,6 +1,8 @@
 body {
   font-family: filson-pro, sans-serif;
   font-size: 14px;
+  background-color: rgba(228, 238, 216, 0.8);
+  color: #231E1D;
 
 }
 
@@ -14,7 +16,7 @@ body {
 }
 
 .grid div {
-            border-top: 5px solid rgb(55, 32, 49);
+            border-top: 5px solid #fff;
             padding: 5px;
             color: rgb(41, 51, 53);
 }
@@ -29,25 +31,25 @@ h2 {
   margin-top: 5px;
   font-family: filson-pro, sans-serif;
   font-size: 40px;
-    color: rgba(232, 159, 38, 0.9);
+    color: #BDAEAB;
 }
 
 a {
   text-decoration: none;
-  color: rgba(248, 198, 45, 0.8);
+  color: #8C7876;
 }
 
 a:hover {
-  color: rgba(232, 159, 38, 0.9);
+  color: #A89C99;
 }
 
 a:active {
   color: black;
 }
 
-a:visited {
-  color: rgba(55, 32, 49, 0.9);
-}
+/* a:visited {
+  color: #B7DCB0;
+} */
 
 #header {
   grid-column-start: 1;
@@ -93,7 +95,7 @@ a:visited {
   height: 375px;
   margin-top: 10px;
   overflow: hidden;
-  border: 3px solid rgb(55, 32, 49);
+  border: 5px solid #fff;
 }
 
 #objective {
@@ -142,5 +144,5 @@ a:visited {
 }
 
 #container {
-  border-bottom: 5px solid rgb(55, 32, 49);
+  border-bottom: 5px solid #fff;
 }
