@@ -1,5 +1,5 @@
 body {
-  font-family: filson-pro, sans-serif;
+  font-family: filson-pro, Helvetica, sans-serif;
   font-size: 14px;
   background-color: rgba(228, 238, 216, 0.8);
   color: #231E1D;
@@ -22,14 +22,14 @@ body {
 }
 
 h1 {
-  font-family: filson-pro, sans-serif;
+  font-family: filson-pro, Helvetica, sans-serif;
   font-size: 60px;
   color: rgba(244, 159, 38, 0.9);
 
 }
 h2 {
   margin-top: 5px;
-  font-family: filson-pro, sans-serif;
+  font-family: filson-pro, Helvetica, sans-serif;
   font-size: 40px;
     color: #BDAEAB;
 }
